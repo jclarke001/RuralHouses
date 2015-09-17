@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<javaPolicyPath>java.policy</javaPolicyPath>
+	<businessLogic local="false"> 
+		<businessLogicNode>158.227.130.85</businessLogicNode>
+		<portRMI>1099</portRMI>
+		<serviceRMI>RuralHouses</serviceRMI>
+	</businessLogic>
+	<database local="true">
+		<databaseNode>localhost</databaseNode>
+		<db4oFilename>casas.db4o</db4oFilename>
+		<dataBaseOpenMode>open</dataBaseOpenMode>
+		<activationDepth>5</activationDepth>
+		<updateDepth>5</updateDepth>
+		<databasePort>8100</databasePort>
+		<user>softEng</user>
+		<password>i4softwEngin2matx</password>
+	</database>
+	<sessionManager>
+		<numberOfCycles>20</numberOfCycles>
+		<millisecondsPerCycle>30000</millisecondsPerCycle>
+	</sessionManager>
+	<cache enabled="true">
+		<maxSize>30</maxSize>
+	</cache>
+</config>

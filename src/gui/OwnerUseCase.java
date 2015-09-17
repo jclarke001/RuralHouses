@@ -1,0 +1,10 @@
+package gui;
+
+public enum OwnerUseCase {
+    REGISTER_PROPERTY,
+    WITHDRAW_PROPERTY,
+    SET_AVAILABILITY,
+    UNSET_AVAILABILITY,
+    REVIEW_BOOKING,
+    CANCEL_BOOKING
+}
